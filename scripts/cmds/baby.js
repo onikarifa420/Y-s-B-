@@ -43,7 +43,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
 
   try {
     if (!args[0]) {
-      const ran = ["Bolo baby", "I love you", "type !bby hi"];
+      const ran = [ "এতো ডাকলে খুন করে ফেলবো 🔪", "type !bby hi"];
       return api.sendMessage(ran[Math.floor(Math.random() * ran.length)], event.threadID, event.messageID);
     }
 
@@ -106,7 +106,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
       api.sendMessage(botResponse, event.threadID, (err, info) => {
       if (!err) {
         global.GoatBot.onReply.set(info.messageID, {
-          commandName: "hinata",
+          commandName: "Tumer Bby",
           type: "reply",
           messageID: info.messageID,
           author: uid,
@@ -162,13 +162,13 @@ module.exports.onChat = async ({ api, event }) => {
           "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",  
           "🐒🐒🐒",
           "bye",
-          "naw amr boss k message daw m.me/mahmud0x7",
+          "naw amr boss k message daw Gaming Crush",
           "mb ney bye",
           "meww",
           "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
           "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",  
-          "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝘂__😘😘",
-          "𝗜 𝗵𝗮𝘁𝗲 𝘆𝗼𝘂__😏😏",
+          "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝘂_2_😘😘",
+          "𝗜 𝗵𝗮𝘁𝗲 𝘆𝗼𝘂_2_😏😏",
           "গোসল করে আসো যাও😑😩",
           "অ্যাসলামওয়ালিকুম",
           "কেমন আসো",
